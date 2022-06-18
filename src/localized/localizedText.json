@@ -1,0 +1,56 @@
+{
+    "Korean":{
+        "check_log": "발견된 문제",
+
+        "latest_ver_error.cause": "잘못된 XML 설정",
+        "latest_ver_error.solution": "1. `UnityModManager.xml` 파일을 열기\n2. `<GameInfo Name=\"A Dance of Fire and Ice\">` 라인으로 가서\n```xml\n<StartingPoint>[Assembly-CSharp.dll]ADOBase.SetupLevelEventsInfo:Before</StartingPoint>\n<UIStartingPoint>[Assembly-CSharp.dll]ADOBase.SetupLevelEventsInfo:After</UIStartingPoint>```위 내용을 ```xml\n<StartingPoint>[Assembly-CSharp.dll]ADOStartup.Startup:Before</StartingPoint>\n<UIStartingPoint>[Assembly-CSharp.dll]ADOStartup.Startup:After</UIStartingPoint>```이렇게 변경해주세요.",
+
+        "old_ver_error.cause": "업데이트 필요",
+        "old_ver_error.solution": "얼불춤을 최신 버전으로 업데이트 해주세요.",
+
+        "path_korean_error.cause": "잘못된 경로",
+        "path_korean_error.solution": "설치되어있는 폴더 경로에 한글이 들어가 있으면 제대로 작동하지 않습니다.\n현재 경로 - {value}",
+
+        "source_file_error.cause": "잘못된 모드 파일",
+        "source_file_error.solution1": "모드 파일이 아닌 모드 **소스** 코드를 다운받았습니다. \n깃허브에서 `Code > DownloadZip` 또는 `Source code (zip)`으로 다운받지 말아주세요.",
+        "source_file_error.solution2": "모드 파일이 아닌 모드 **소스** 코드를 다운받았습니다. \n{value} 에서 `Code > DownloadZip` 또는 `Source code (zip)`으로 다운받지 말아주세요.",
+
+        "mod_error.cause": "{value} 모드 오류",
+        "mod_error.solution1": "{value}\n{value2} 모드를 최신 버전으로 다운받아주세요.\n이미 최신버전이라면 모드가 업데이트될 때까지 기다려주세요.",
+        "mod_error.solution2": "{value}\n{value2} 모드를 최신 버전으로 다운받아주세요.\n{value3}",
+
+        "no_errors_here.cause": "문제 없음",
+        "no_errors_here.solution": "로그 파일에서 아무런 문제가 발견되지 않았습니다.",
+
+        "adofai_error.cause": "얼불춤 또는 모드 오류",
+        "adofai_error.solution": "{value}\n얼불춤 또는 모드가 업데이트될 때까지 기다려주세요."
+    },
+
+    "English":{
+        "check_log": "Found issue",
+
+        "latest_ver_error.cause": "Invalid XML settings",
+        "latest_ver_error.solution": "1. open `UnityModManager.xml`\n2. go to the line `<GameInfo Name=\"A Dance of Fire and Ice\">`\n```xml\n<StartingPoint>[Assembly-CSharp.dll]ADOBase.SetupLevelEventsInfo:Before</StartingPoint>\n<UIStartingPoint>[Assembly-CSharp.dll]ADOBase.SetupLevelEventsInfo:After</UIStartingPoint>```this text ```xml\n<StartingPoint>[Assembly-CSharp.dll]ADOStartup.Startup:Before</StartingPoint>\n<UIStartingPoint>[Assembly-CSharp.dll]ADOStartup.Startup:After</UIStartingPoint>```please change this.",
+
+        "old_ver_error.cause": "Need update",
+        "old_ver_error.solution": "Please update ADOFAI to the latest version.",
+
+        "path_korean_error.cause": "Wrong path",
+        "path_korean_error.solution": "If Hangul is included in the path of the installed folder, it will not work properly.\nCurrent path- {value}",
+
+        "source_file_error.cause": "Invalid mod file",
+        "source_file_error.solution1": "You have downloaded a mod **source** code, not a mod file.\nDo not download from GitHub to 'Code > DownloadZip' or 'Source code (zip)'.",
+        "source_file_error.solution2": "You have downloaded a mod **source** code, not a mod file.\nPlease do not download from {value} with `Code > DownloadZip` or `Source code (zip)`.",
+
+        "mod_error.cause": "{value} Mod Error",
+        "mod_error.solution1": "{value}\nPlease download the {value2} mod to the latest version.\nIf it's already the latest version, please wait until the mod is updated.",
+        "mod_error.solution2": "{value}\nPlease download the {value2} mod to the latest version.\n{value3}",
+
+        "no_errors_here.cause": "No issue were",
+        "no_errors_here.solution": "No issue were found in the log file",
+
+        "adofai_error.cause": "ADOFAI or Mod Error",
+        "adofai_error.solution": "{value}\nPlease wait until ADOFAI or Mod is updated."
+
+    }
+}
